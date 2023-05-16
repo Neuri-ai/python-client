@@ -1,3 +1,5 @@
+# Neuri Client Library for Python
+
 ## Getting Started
 
 To get started with the Neuri Python Client Library, you need to first install the library using `pip`:
