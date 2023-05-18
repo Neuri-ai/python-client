@@ -15,11 +15,13 @@ To get started with the Neuri Python Client Library, you need to first install t
   pip install neuri
 
 
+
 +++++
 Import and initialize the library
 +++++
 
 First you have to import the module and set up the client with your API key and service details, as shown below.
+
 .. code-block:: python
 
     import neuri
@@ -34,6 +36,7 @@ First you have to import the module and set up the client with your API key and 
 
     client = neuri.initialize_client(config)
 
+
 +++++
 Import and initialize the library
 +++++
@@ -47,6 +50,7 @@ The Neuri Client Library currently supports three services: **audio_file**, **au
 +++++
 Audio File
 +++++
+
 Process audio files stored locally on your system using the audio_file service.
 
 .. code-block:: python
