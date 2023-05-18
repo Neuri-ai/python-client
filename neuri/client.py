@@ -129,7 +129,7 @@ class Client:
 					('files', (file.split('/')[-1], open(file, 'rb'), 'audio/wav')))
 
 		headers = {
-			'Authorization': 'Bearer s21FZ-ffdMbqfY3EAS6-vKOrHLI52dnZPw'
+			'Authorization': f'Bearer s21FZ-ffdMbqfY3EAS6-vKOrHLI52dnZPw'
 		}
 		response = requests.request(
 			"POST", self.__URL, headers=headers, files=files)
