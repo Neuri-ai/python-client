@@ -12,7 +12,7 @@ def open_file(fname):
 setup(
   name = 'neuri',
   packages = ['neuri'],
-  version = '1.0.0',
+  version = '1.0.1',
   license=open('LICENSE.txt').read(),
   description = 'Python client library for the Neuri API',
   author = 'Neuri',
